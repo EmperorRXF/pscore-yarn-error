@@ -1,0 +1,13 @@
+{
+  "name": "watch-mode-error-on-terminate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.3"
+  }
+}
